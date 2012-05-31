@@ -1,2 +1,3 @@
-response = { :eatmycrap => "Please",
-             :thebottoms => @bottoms }
+{
+             :thebottoms => @bottoms,
+             :coolmath => Bottom.first }

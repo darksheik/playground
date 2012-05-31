@@ -1,6 +1,7 @@
 class TopsController < ApplicationController
 
   def index
+    flash[:notice] = "You're loading this page"
     @tops = Top.all
   end
 
