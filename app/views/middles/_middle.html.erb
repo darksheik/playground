@@ -1,5 +1,9 @@
 <li>
 <%= middle.name %>
 <% if middle.bottoms.any? %>
+  <ul>
+    There's a bottom here
+    <% render middle.bottoms %>
+  </ul>
 <% end %>
 </li>
