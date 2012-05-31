@@ -1,0 +1,2 @@
+class MiddlesController < ApplicationController
+end

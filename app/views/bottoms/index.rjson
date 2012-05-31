@@ -1,0 +1,2 @@
+response = { :eatmycrap => "Please",
+             :thebottoms => @bottoms }
